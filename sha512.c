@@ -1,25 +1,12 @@
-/* sha512.c - Functions to compute SHA512 and SHA384 message digest of files or
-   memory blocks according to the NIST specification FIPS-180-2.
-
-   Copyright (C) 2005-2006, 2008-2012 Free Software Foundation, Inc.
-
-   This program is free software: you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation, either version 3 of the License, or
-   (at your option) any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
-
-/* Written by David Madore, considerably copypasting from
-   Scott G. Miller's sha1.c
-*/
-
+/**
+ * Copyright (C), 2017-2018, DianJing Tech. Co., Ltd.
+ * Author: wangkang
+ * Description:     sha512 编解码实现算法
+ * Version:   
+ * Function List: 
+ * History: 
+ * TEL : QQ450718196,phone:17665264299
+ */
 //#include <config.h>
 
 #include "sha512.h"

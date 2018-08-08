@@ -4,6 +4,16 @@
 
 #include "base64.h"
 
+/**
+ * Copyright (C), 2017-2018, DianJing Tech. Co., Ltd.
+ * Author: wangkang
+ * Description:     base64编解码模块
+ * Version:   
+ * Function List: 
+ * History: 
+ * TEL : QQ450718196,phone:17665264299
+ */
+
 /* BASE 64 encode table */
 static const char base64en[] = {
 	'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
@@ -54,6 +64,15 @@ static const signed char base64de[] = {
 	    44,  45,  46,  47,  48,  49,  50,  51,
 };
 
+/**
+ * Copyright (C), 2017-2018, DianJing Tech. Co., Ltd.
+ * Author: wangkang
+ * Description:     base64编码
+ * Version:   
+ * Function List: 
+ * History: 
+ * TEL : QQ450718196,phone:17665264299
+ */
 int
 base64_encode(const unsigned char *in, unsigned int inlen, char *out)
 {
@@ -91,6 +110,15 @@ base64_encode(const unsigned char *in, unsigned int inlen, char *out)
 	return BASE64_OK;
 }
 
+/**
+ * Copyright (C), 2017-2018, DianJing Tech. Co., Ltd.
+ * Author: wangkang
+ * Description:     base64解码
+ * Version:   
+ * Function List: 
+ * History: 
+ * TEL : QQ450718196,phone:17665264299
+ */
 int
 base64_decode(const char *in, unsigned int inlen, unsigned char *out)
 {

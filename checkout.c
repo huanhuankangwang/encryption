@@ -13,6 +13,15 @@
 #define  BUF_MAX_SIZE	(1024)
 #define  USING_TEST_MODE	0
 
+/**
+ * Copyright (C), 2017-2018, DianJing Tech. Co., Ltd.
+ * Author: wangkang
+ * Description:     加解密测试程序的实现
+ * Version:   
+ * Function List: 
+ * History: 
+ * TEL : QQ450718196,phone:17665264299
+ */
 //将其重定向到文件中去
 void filePrint(char *out,FILE *fp)
 {
